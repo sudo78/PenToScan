@@ -1,0 +1,43 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/splash</item>
+        <item name="android:textColorHint">@color/colorText</item>
+        <item name="colorControlNormal">@color/colorText</item>
+        <item name="colorControlActivated">@color/colorText</item>
+        <item name="android:textColorHighlight">@color/blue_200</item>
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+
+        <!--<item name="android:colorPrimary">@color/blue_500</item>-->
+        <!--<item name="android:colorPrimaryDark">@color/blue_700</item>-->
+        <!--<item name="android:colorAccent">@color/blue_500</item>-->
+       <!---->
+        <!--<item name="android:alertDialogTheme">@style/MainActivityTheme.AlertDialogTheme</item>-->
+
+    </style>
+    <style name="CustomActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="spinnerItemStyle" parent="@android:style/Widget.Holo.DropDownItem.Spinner">
+        <item name="android:textColor">@color/splash</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+    <!--<style name="MainActivityTheme.AlertDialogTheme" parent="android:Theme.Material.Dialog.Alert">-->
+        <!--<item name="android:colorPrimary">@color/blue_500</item>-->
+        <!--<item name="android:colorPrimaryDark">@color/blue_700</item>-->
+        <!--<item name="android:colorAccent">@color/blue_500</item>-->
+    <!--</style>-->
+</resources>

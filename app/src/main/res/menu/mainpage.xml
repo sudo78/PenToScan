@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Create new folder"
+     />
+    <item
+        android:id="@+id/import_from_gallery"
+        android:orderInCategory="100"
+        android:title="Import from gallery"
+      />
+    <item
+    android:id="@+id/grid_view"
+    android:orderInCategory="100"
+    android:title="Grid View"
+    />
+    <item
+        android:id="@+id/sort"
+        android:orderInCategory="100"
+        android:title="Sort by"
+         />
+    <item
+        android:id="@+id/select"
+        android:orderInCategory="100"
+        android:title="Select"
+         />
+    <item
+        android:id="@+id/import_pdf"
+        android:orderInCategory="100"
+        android:title="Import PDF"
+        />
+</menu>
